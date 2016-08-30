@@ -94,7 +94,11 @@ function dragended(d) {
 
 </script>
 <body>
-<form action="/file-upload"
-      class="dropzone"
-      id="my-awesome-dropzone"></form>
-</body>
+<h1 id="try-it-out">Try it out!</h1>
+
+<div id="dropzone"><form action="/upload" class="dropzone needsclick" id="demo-upload">
+
+<div class="dz-message needsclick">
+    Drop files here or click to upload.<br/>
+    <span class="note needsclick">(This is just a demo dropzone. Selected files are <strong>not</strong> actually uploaded.)</span>
+</div>
